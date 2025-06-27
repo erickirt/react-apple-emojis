@@ -4,4 +4,4 @@
 
 ### Breaking changes
 
-- Changed the format of the data file to minimize its size. See [src/data.json](https://github.com/dherault/react-apple-emojis/blob/master/src/data.json) to see the new format.
+- Changed the format of the data file to minimize its size. See [src/data.json](https://github.com/dherault/react-apple-emojis/blob/master/src/data.json) for the new format.
