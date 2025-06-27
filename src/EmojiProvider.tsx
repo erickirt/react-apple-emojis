@@ -1,9 +1,10 @@
 import { PropsWithChildren} from 'react'
 
+import type { EmojiData } from './types'
 import DataContext from './DataContext'
 
 type EmojiProviderProps = PropsWithChildren<{
-  data: Record<string, string>
+  data: EmojiData
 }>
 
 function EmojiProvider({ data, children }: EmojiProviderProps) {

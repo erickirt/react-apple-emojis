@@ -1,3 +1,8 @@
 import { createContext } from 'react'
 
-export default createContext<Record<string, string>>({})
+import type { EmojiData } from './types'
+
+export default createContext<EmojiData>({
+  emojis: {},
+  baseUrl: ''
+})
